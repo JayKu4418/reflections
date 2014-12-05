@@ -1,0 +1,32 @@
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The diff helped me see the changes I introduced in the newer version of my file. 
+
+By seeing these changes, I can verify that I intended to make those changes and if I did not,then allow me to identify the bug.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It allows you to revert changes more easily. You can observe your progress over time. You can identify common mistakes and bugs you introduce. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros: It gives you control over when you make the commits. Having something automatically save something for you means you could have a very small and illogical versions commited without the version making any sense.
+Cons: You may forget to create a commit for a long time and might commit too large of change which does not allow you to compare between two commits. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git understands that certain files are connected to one another and changing one file may definitely require changing another file as well. 
+Google Docs on the other hand treats files independently and does not assume connections between files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows you the all the commits made and the commit messages with the commit ids. Then you can use these ids and compare between different versions using git diff and the two ids.
+
+How might using version control make you more confident to make changes that could break something?
+
+You can revert back to a previous version which did not contain those changes that broke something. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to save and update the bioinformatics project I am working on in lab. I would like to able to update and load changes from any workstation that I am at instead of having to manually load and save my changes to an external hard drive each time.
