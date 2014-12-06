@@ -17,3 +17,7 @@ If you wanted to test out some experimental function which you were not ready to
 How do the diagrams help you visualize the branch structure?
 
 You can see the parent commit for every commit and you can see at which commit  different branches are initiated. You can see commits which will not be included as part of any commit since every commit only has knowledge of its parent commit.  
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging a branch together or merging a branch into another branch like master, means that all the commits from the merged branch become part of master. The commit created when you merged two branches will have two parent commits instead of the usual one parent commit. All merged commits are ordered in time order. 
