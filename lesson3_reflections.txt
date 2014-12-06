@@ -6,3 +6,8 @@ Or if multiple users were working on the same code and wanted to access it and p
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 You may not always want to pull changes from Git, maybe you are waiting for someone to finish their code and they are not completely done yet. You want to have the choice of when to pull from the remote repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are when you clone someone else's repository on github so you get all their commits but any changes you make to yours won't affect the original. You clone to grab the repository you created on github server onto your local machine. You branch when you going in a different direction on your own repository. 
+You should fork when you want to completely copy someone else's work and modify it. You should clone when you want a repository copied onto your local machine.
