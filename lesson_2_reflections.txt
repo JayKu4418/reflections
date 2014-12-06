@@ -21,3 +21,8 @@ You can see the parent commit for every commit and you can see at which commit  
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging a branch together or merging a branch into another branch like master, means that all the commits from the merged branch become part of master. The commit created when you merged two branches will have two parent commits instead of the usual one parent commit. All merged commits are ordered in time order. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: Automatic merging saves us the trouble of having to look through changes and making sure non of the code we haven't touched matches up with those lines of code in the other branch. It works for simple merges where you have added a brand new feature without editing lines of code. It's also good that git allows you to manually resolve conflicts on lines of the same code that are different.
+Cons: It's bad if you did not mean to make a certain change such as deleting a line, because Git will assume that you meant to delete a line.
