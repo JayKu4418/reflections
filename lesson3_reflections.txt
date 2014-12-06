@@ -15,3 +15,7 @@ You should fork when you want to completely copy someone else's work and modify 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 This way you will know what new changes you may have potentially introduced on your local repository that are different from what was last commited on the remote. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+By emailing someone my code and asking if it looks okay or making them walk over and asking them if it looks okay. It would be hard if the person was not always around and this way with Github, there would be notifications to your collaborator about changes you have made.
