@@ -13,3 +13,7 @@ You only need to add files to the staging area that are part of a single logical
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 If you wanted to test out some experimental function which you were not ready to share yet. By branching you won't have to affect the product that the user is using and you can have separate workspace to work on your new ideas. When adding new features, each new feature can have a separate branch. Or if you have a bug,you can create a new branch for that bug fix.
+
+How do the diagrams help you visualize the branch structure?
+
+You can see the parent commit for every commit and you can see at which commit  different branches are initiated. You can see commits which will not be included as part of any commit since every commit only has knowledge of its parent commit.  
