@@ -19,3 +19,7 @@ This way you will know what new changes you may have potentially introduced on y
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 By emailing someone my code and asking if it looks okay or making them walk over and asking them if it looks okay. It would be hard if the person was not always around and this way with Github, there would be notifications to your collaborator about changes you have made.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+This would useful when you are collaborating with multiple people and they are all working on different features which could potentially step on each other. Working on master directly is beneficial if you are the only one working on the project but even then it might be useful to have branches in order to make sure that you are certain about pushing a change into the main master branch.
